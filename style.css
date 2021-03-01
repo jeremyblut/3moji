@@ -25,12 +25,15 @@ body {
 }
 a:hover {
   text-decoration: none;
-  color:  rgb(255, 208, 0);
+  Background-color:black;
+  color:rgb(255, 192, 57);
+  padding:2px;
 }
 a {
-  color:  rgb(0, 41, 189);
+  color:black;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+  padding:2px;
 }
 
 /* content homepage */
