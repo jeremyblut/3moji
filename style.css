@@ -1,0 +1,116 @@
+/* shared code */
+
+body {
+  margin: 0px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-color: rgb(255, 192, 57);
+}
+
+/* header */
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container-1 div {
+  /*  border: 1px #ccc solid; */
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.push {
+  margin-left: auto;
+}
+.nav {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color:  rgb(255, 208, 0);
+}
+a {
+  color:  rgb(0, 41, 189);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+/* content homepage */
+
+.container-2 div {
+  /*  border: 1px #ccc solid; */
+}
+.container-2 {
+  /* border: 1px #ccc solid; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.container-2-box {
+  min-width: 260px;
+  max-width: 260px;
+  padding: 20px;
+}
+
+.fillspace {
+  height: 85vh;
+  padding: 10px;
+  display: flex;
+}
+
+.centers {
+  margin: auto;
+}
+
+/* @media (max-width: 650px) and (min-width: 400px){
+  .fillspace {
+    display:inline;
+  }
+} */
+
+.break {
+  flex-basis: 100%;
+  height: 0px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+p {
+  color: rgb(16, 21, 39);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.5em;
+  font-size: 20;
+}
+
+h3 {
+  color:  rgb(33, 37, 54);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  color:  rgb(4, 9, 26);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 2px;
+}
+
+/* for the index/home */
+
+.bodyimage {
+  width: 100%;
+  max-width: 350px;
+  transform: rotate(3deg);
+  /* border-radius:5px; */
+}
+
+.bodyimage:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
