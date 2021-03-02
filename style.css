@@ -109,11 +109,5 @@ h4 {
 .bodyimage {
   width: 100%;
   max-width: 350px;
-  transform: rotate(3deg);
   /* border-radius:5px; */
-}
-
-.bodyimage:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
 }
