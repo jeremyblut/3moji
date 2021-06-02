@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="style.css" />
   <!-- To see who is here. Hi!-->
   <!-- VISA Tracking Code for https://3moji.org --><script>(function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["30fbb791-7a60-11eb-b589-901b0edac50a"]={v:"0.3",s:"30fbb791-7a60-11eb-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("head")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["30fbb791-7a60-11eb-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=30fbb791-7a60-11eb-b589-901b0edac50a&v=")</script><!-- VISA Tracking Code for https://3moji.org -->
+  <!-- Scripts for 3D things -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 </head>
 
 <body>
@@ -36,7 +41,11 @@
     <div class="container-2">
 
       <div class="container-2-box">
-        <img class="bodyimage" src="img/ohdear.png" alt="picture of 3moji" />
+        <!-- <img class="bodyimage" src="img/ohdear.png" alt="picture of 3moji" /> -->
+
+          <model-viewer src="img/Exploding_Head.gltf"
+                  background-color="#FFC037" autoplay auto-rotate camera-controls shadow-intensity="1" interaction-prompt="none"></model-viewer>
+        
       </div>
 
       <div class="container-2-box">
