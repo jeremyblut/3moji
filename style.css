@@ -187,8 +187,6 @@ model-viewer:focus {
     margin-right:20px;
   }
   .imagegridtwo {
-    /* margin-left: 20px;
-    margin-right:20px; */
     /* border: 3px red solid; */
     display: flex;
     justify-content: space-between;
@@ -197,5 +195,5 @@ model-viewer:focus {
 
   .gridimage {
     /* border: 3px red solid; */
-    width: calc( 230% / 10);
+    width: calc( 200% / 10);
   }

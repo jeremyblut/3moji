@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="a home for 3D emoji" />
-  <title>3moji - The home for 3D Emoji</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="img/icon.png" />
-  <!-- import the webpage's stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-  <!-- To see who is here. Hi!-->
-  <!-- VISA Tracking Code for https://3moji.org --><script>(function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["30fbb791-7a60-11eb-b589-901b0edac50a"]={v:"0.3",s:"30fbb791-7a60-11eb-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("head")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["30fbb791-7a60-11eb-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=30fbb791-7a60-11eb-b589-901b0edac50a&v=")</script><!-- VISA Tracking Code for https://3moji.org -->
-  <!-- Scripts for 3D things -->
-  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="a home for 3D emoji" />
+    <title>3moji - The home for 3D Emoji</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap"
+      rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- To see who is here. Hi!-->
+    <!-- VISA Tracking Code for https://3moji.org --><script>(function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["30fbb791-7a60-11eb-b589-901b0edac50a"]={v:"0.3",s:"30fbb791-7a60-11eb-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("head")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["30fbb791-7a60-11eb-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=30fbb791-7a60-11eb-b589-901b0edac50a&v=")</script><!-- VISA Tracking Code for https://3moji.org -->
+    <!-- Scripts for 3D things -->
+    <script
+      src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+    <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+  </head>
 
-</head>
-
-<body>
-  <!-- navigation -->
-  <div class="container-1">
+  <body>
+    <!-- navigation -->
+    <div class="container-1">
       <div class="box-1">
         <h3>
-          <a class="nav" href="index.html" style="display: inline"
-            >3moji</a>
+          <a class="nav" href="index.html" style="display: inline">3moji</a>
         </h3>
       </div>
       <!-- <div class="push"></div>
@@ -36,36 +39,37 @@
         </h3>
       </div> -->
     </div>
-  <!-- pagecontent -->
-  <div class="fillspace">
-    <div class="container-2">
+    <!-- pagecontent -->
+    <div class="fillspace">
+      <div class="container-2">
 
-      <div class="container-2-box">
-        <!-- <img class="bodyimage" src="img/ohdear.png" alt="picture of 3moji" /> -->
+        <div class="container-2-box">
+          <!-- <img class="bodyimage" src="img/ohdear.png" alt="picture of 3moji" /> -->
+          <model-viewer
+            environment-image="neutral"
+            id="reveal" loading="eager" shadow-intensity="0"
+            src="3D/gltf/Exploding_Head.gltf"
+            background-color="#FFC037" autoplay auto-rotate camera-controls
+            shadow-intensity="1" interaction-prompt="none" alt="I broke D:"></model-viewer>
+        </div>
 
-          <model-viewer 
-          environment-image="neutral"
-          id="reveal" loading="eager" shadow-intensity="0" src="3D/gltf/Exploding_Head.gltf"
-          background-color="#FFC037" autoplay auto-rotate camera-controls shadow-intensity="1" interaction-prompt="none" alt="I broke D:" ></model-viewer>
-        
+        <div class="container-2-box">
+          <h4>3moji is a home for 3D Emoji</h4>
+          <p>
+            This page is a current work in progress. I'm on a mission to model
+            all of the Emoji. In the context of this site, "3moji" means a 3D
+            Emoji.
+            <br><br>
+            Probably going to offer them CC-BY.
+          </p>
+          <a class="nav" href="mailto:info@3moji.org">info@3moji.org</a>
+        </div>
+
+
       </div>
-
-      <div class="container-2-box">
-        <h4>3moji is a home for 3D Emoji</h4>
-        <p>
-          This page is a current work in progress. I'm on a mission to model all of the Emoji. In the context of this site, "3moji" means a 3D Emoji.
-          <br><br>
-          Probably going to offer them CC-BY.
-        </p>
-        <a class="nav" href="mailto:info@3moji.org">info@3moji.org</a>
-      </div>
-
-
-
     </div>
-  </div>
 
-</body>
+  </body>
 
 </html>
 
