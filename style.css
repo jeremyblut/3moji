@@ -60,7 +60,7 @@ a {
   margin: auto;
 }
 
-@media (max-width: 650px) and (min-width: 400px) {
+@media (max-width: 650px) and (min-width: 0px) {
   .container-2 {
     align-content: initial;
   }
