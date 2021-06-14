@@ -37,10 +37,6 @@ a {
 }
 
 /* content homepage */
-
-.container-2 div {
-  /*  border: 1px #ccc solid; */
-}
 .container-2 {
   /* border: 1px #ccc solid; */
   display: flex;
@@ -65,12 +61,6 @@ a {
   margin: auto;
 }
 
-/* @media (max-width: 650px) and (min-width: 400px){
-  .fillspace {
-    display:inline;
-  }
-} */
-
 .break {
   flex-basis: 100%;
   height: 0px;
@@ -90,14 +80,21 @@ p {
   font-size: 20;
 }
 
+h2 {
+  color:  rgb(9, 9, 12);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20;
+  font-weight: 800;
+}
+
 h3 {
-  color:  rgb(33, 37, 54);
+  color:  rgb(9, 9, 12);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
 h4 {
-  color:  rgb(4, 9, 26);
+  color:  rgb(9, 9, 12);
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 30px;
@@ -109,7 +106,7 @@ h4 {
 .bodyimage {
   width: 100%;
   max-width: 350px;
-  /* border-radius:5px; */
+  border-radius:5px;
 }
 
 model-viewer {
@@ -125,3 +122,80 @@ model-viewer#reveal {
 model-viewer:focus {
   outline: none;
 }
+
+/* top nav */
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(9, 9, 12);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(255, 192, 57);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 192, 57);
+  color: rgb(9, 9, 12);
+}
+
+.topnav .icon {
+  display: none;
+  width:120px;
+  height: 19px;
+  
+}
+
+.active:hover {
+  width:47px;
+}
+
+@media screen and (max-width: 1220px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* Image grid */
+
+  .imagegrid {
+    /* border: 1px #ccc solid; */
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .imagegridtwo {
+    /* margin-left: 20px;
+    margin-right:20px; */
+    /* border: 3px red solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .gridimage {
+    /* border: 3px red solid; */
+    width: calc( 230% / 10);
+  }
