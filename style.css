@@ -7,43 +7,43 @@ body {
 }
 
 /* header */
+
 .container-1 {
   display: flex;
   justify-content: space-between;
-}
-.container-1 div {
-  /*  border: 1px #ccc solid; */
   padding: 10px;
   padding-right: 25px;
   padding-left: 25px;
 }
+
 .push {
   margin-left: auto;
 }
+
 .nav {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  Background-color:black;
-  color:rgb(255, 192, 57);
-  padding:2px;
-}
-a {
   color:black;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   padding:2px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.nav:hover {
+  text-decoration: none;
+  Background-color:black;
+  color:rgb(255, 192, 57);
 }
 
 /* content homepage */
+
 .container-2 {
-  /* border: 1px #ccc solid; */
   display: flex;
   justify-content: center;
   align-content: center;
   flex: 1;
   flex-wrap: wrap;
+  
 }
 .container-2-box {
   min-width: 260px;
@@ -52,7 +52,7 @@ a {
 }
 
 .fillspace {
-  height: 75vh;
+  height: 100vh;
   display: flex;
 }
 
@@ -61,6 +61,12 @@ a {
 }
 
 @media (max-width: 650px) and (min-width: 0px) {
+  .container-2 {
+    align-content: initial;
+  }
+}
+
+@media (max-height: 650px) and (min-height: 0px) {
   .container-2 {
     align-content: initial;
   }
@@ -82,13 +88,12 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.5em;
-  font-size: 20;
 }
 
 h2 {
   color:  rgb(9, 9, 12);
   font-family: "Montserrat", sans-serif;
-  font-size: 20;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -106,18 +111,35 @@ h4 {
   margin: 2px;
 }
 
+.floater01 {
+  height:256px;
+  width:256px;
+  position: absolute;
+  top:5%;
+  right:85%;
+  transform: rotate(-15deg);
+}
+
+.floater02 {
+  height:256px;
+  width:256px;
+  position: absolute;
+  top:45%;
+  left:80%;
+  transform: rotate(25deg);
+}
+
 /* for the index/home */
 
 .bodyimage {
   width: 100%;
-  max-width: 350px;
+  max-width: 450px;
   border-radius:5px;
 }
 
 model-viewer {
-  width: 100%;
-  height: 312px;
-  
+  min-width: 312PX;
+  height: 450px;
 }
 
 model-viewer#reveal {
@@ -133,6 +155,8 @@ model-viewer:focus {
 .topnav {
   overflow: hidden;
   background-color: rgb(9, 9, 12);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 
 .topnav a {
@@ -200,5 +224,50 @@ model-viewer:focus {
 
   .gridimage {
     /* border: 3px red solid; */
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .griddiv {
     width: calc( 200% / 10);
+    /* border: 3px red solid; */
+  }
+
+  .DownloadB {
+    Width:100%;
+    Padding-top: 10px;
+    Padding-bottom:10px;
+    Background-color:black;
+    text-align: Center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+  .DownloadB:hover {
+    Background-color:rgb(255, 192, 57);
+    Color:black;
+  }
+
+  .DL {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  color: rgb(255, 192, 57);
+  }
+
+  .Donatebutton01 {
+    top:-20px;
+    left:-20px;
+    width:50px;
+    height:50px;
+    Position:Relative;
+    transform: rotate(-25deg);
+  }
+
+  .Donatebutton02 {
+    top:-20px;
+    left:230px;
+    width:50px;
+    height:50px;
+    Position:Relative;
+    transform: rotate(25deg);
   }
