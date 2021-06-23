@@ -4,6 +4,7 @@ body {
   margin: 0px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   background-color: rgb(255, 192, 57);
+  position:relative;
 }
 
 /* header */
@@ -25,7 +26,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   padding:2px;
-  padding-right: 20px;
   text-decoration: none;
 }
 
@@ -51,8 +51,19 @@ body {
   padding: 20px;
 }
 
+.container-3{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.container-3-box{
+  padding: 20px;
+}
+
 .fillspace {
-  height: 100vh;
+  height: 85vh;
   display: flex;
 }
 
@@ -64,10 +75,16 @@ body {
   .container-2 {
     align-content: initial;
   }
+  .container-3 {
+    align-content: initial;
+  }
 }
 
 @media (max-height: 650px) and (min-height: 0px) {
   .container-2 {
+    align-content: initial;
+  }
+  .container-3 {
     align-content: initial;
   }
 }
@@ -124,8 +141,8 @@ h4 {
   height:256px;
   width:256px;
   position: absolute;
-  top:45%;
-  left:80%;
+  top:60%;
+  left:85%;
   transform: rotate(25deg);
 }
 
@@ -138,8 +155,8 @@ h4 {
 }
 
 model-viewer {
-  min-width: 312PX;
-  height: 450px;
+  min-height:312px;
+  min-width:312px;
 }
 
 model-viewer#reveal {
