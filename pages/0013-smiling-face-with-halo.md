@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: smiling face with halo
+title: Smiling Face with Halo
 emoji: smiling_face_with_halo
 permalink: 😇.html
 ---

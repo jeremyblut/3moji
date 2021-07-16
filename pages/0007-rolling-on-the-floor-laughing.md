@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: rolling on the floor laughing
+title: Rolling on the Floor Laughing
 emoji: rolling_on_the_floor_laughing
 permalink: 🤣.html
 ---

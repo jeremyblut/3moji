@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: grinning face
+title: Grinning Face
 emoji: grinning_face
 permalink: 😀.html
 ---

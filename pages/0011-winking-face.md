@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: winking face
+title: Winking Face
 emoji: winking_face
 permalink: 😉.html
 ---

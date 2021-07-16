@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: face with tears of joy
+title: Face with Tears of Joy
 emoji: face_with_tears_of_joy
 permalink: 😂.html
 ---

@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: smiling face with hearts
+title: Smiling Face with Hearts
 emoji: smiling_face_with_hearts
 permalink: 🥰.html
 ---

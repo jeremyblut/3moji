@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: upside-down face
+title: Upside-down Face
 emoji: upside_down_face
 permalink: 🙃.html
 ---

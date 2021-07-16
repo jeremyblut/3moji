@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: grinning squinting face
+title: Grinning Squinting Face
 emoji: grinning_squinting_face
 permalink: 😆.html
 ---

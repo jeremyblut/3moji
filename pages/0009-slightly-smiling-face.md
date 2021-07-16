@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: slightly smiling face
+title: Slightly Smiling Face
 emoji: slightly_smiling_face
 permalink: 🙂.html
 ---

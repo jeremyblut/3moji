@@ -1,6 +1,6 @@
 ---
 layout: smileys&people
-title: grinning face with big eyes
+title: Grinning Face with Big Eyes
 emoji: grinning_face_with_big_eyes
 permalink: 😃.html
 ---
