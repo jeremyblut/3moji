@@ -1,4 +1,4 @@
 ---
 layout: category_food&drink
-title: 3moji - Animals and Nature
+title: 3moji - Food & Drink
 ---

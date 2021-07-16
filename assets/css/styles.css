@@ -96,6 +96,11 @@ body {
     font-weight: 600;
     line-height: 1.5em;
   }
+
+  a{
+    text-decoration: none;
+    color: rgb(16, 21, 39);
+  }
   
   h2 {
     color:  rgb(9, 9, 12);

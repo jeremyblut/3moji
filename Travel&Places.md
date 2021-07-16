@@ -1,4 +1,4 @@
 ---
 layout: category_travel&places
-title: 3moji - Animals and Nature
+title: 3moji - Travel & Places
 ---

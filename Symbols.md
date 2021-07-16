@@ -1,4 +1,4 @@
 ---
 layout: category_symbols
-title: 3moji - Animals and Nature
+title: 3moji - Symbols
 ---
