@@ -3,24 +3,12 @@ layout: default
 ---
 <!-- navigation -->
     
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">3moji</a>
-  <a href="Smileys&People.html" >Smileys & People</a>
-  <a href="Animals&Nature.html" >Animals & Nature</a>
-  <a href="Food&Drink.html" >Food & Drink</a>
-  <a href="Activity.html" >Activity</a>
-  <a href="Travel&Places.html" >Travel & Places</a>
-  <a href="Objects.html" >Objects</a>
-  <a href="Symbols.html" >Symbols</a>
-  <a href="Flags.html" >Flags</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <div class="Catagories">Categories</div>
-  </a>
-</div>
+{%- include menu.html -%}
+
 
 <!-- pagecontent -->
 <div class="fillspace">
-  <div class="container-3">
+  <div class="container-2">
 
     <div class="container-3-box">
       <!-- <img class="bodyimage" src="img/ohdear.png" alt="picture of 3moji" /> -->
@@ -39,20 +27,19 @@ layout: default
       interaction-prompt="none" alt="I broke D:"></model-viewer>
     </div>
 
+
     <div class="container-2-box">
       <h4>{{ page.title | escape }}</h4>
       <p>
-        Oh look, it's {{ page.title | escape }}! Again this is very much a work in progress.
-        <br><br> 
-        I'm still working on how to roll these out but at the moment feel free to use them for personal non-commercial projects.
+        Oh look, it's {{ page.title | escape }}!
+        <br> 
+        I'm still working on how to roll these out, but at the moment feel free to use them, with credit, for personal non-commercial projects.
         Drop me a line if you have any other questions. :) 
-        <br><br>
+        <br>
       </p>
       <a class="DL" href="mailto:info@3moji.org"><div class="DownloadB">info@3moji.org</div></a>
       <h2>Download</h2>
-      <br>
-      <a class="DL" href="../assets/3D/gltf/{{ page.emoji | escape }}.gltf" download="{{ page.emoji | escape }}.gltf"><div class="DownloadB">GLTF</div></a> 
-      <br>
+      <a class="DL" href="../assets/3D/gltf/{{ page.emoji | escape }}.gltf" download="{{ page.emoji | escape }}.gltf"><div class="DownloadB">GLTF</div></a>
       <!-- <a class="DL" href="#page"><div class="DownloadB">FBX</div></a> 
       <br> -->
        <a class="DL" href="../assets/img/3moji/{{ page.emoji | escape }}.png" download="{{ page.emoji | escape }}.PNG"><div class="DownloadB">PNG</div></a> 
